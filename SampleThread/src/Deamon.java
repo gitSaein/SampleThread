@@ -1,6 +1,6 @@
 public class Deamon {
 	
-	public static void main(String[] args) {
+	public void deamon(){
 		
 		Thread deamon = new Thread(()->{
 			while( true ) {
